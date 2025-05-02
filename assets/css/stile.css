@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: bisque;
+    font-size: 20px;
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+.gol:link {
+    color: black;
+}
+
+.gol:visited {
+    color: black;
+}
+
+.gol:hover {
+    background-color: rgb(253, 194, 121);
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    padding-bottom: 5px;
+}
+
+.squadra {
+    text-decoration: none;
+    padding: 0px 5px;
+}
+
+.dinamokiev:link {
+    color: yellow;
+    background-color: blue;
+}
+
+.dinamokiev:hover {
+    color: blue;
+    background-color: yellow;
+}
+
+.milan:link {
+    color: red;
+    background-color: black;
+}
+
+.milan:hover {
+    color: black;
+    background-color: red;
+}
+
+.chelsea:link {
+    color: white;
+    background-color: blue;
+}
+
+.chelsea:hover {
+    color: blue;
+    background-color: white;
+}
+
+figure img {
+    width: 100%;
+    display: block;
+    margin: 0px auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+article {
+    margin: 10px;
+}
+
+h1 {
+    margin: 10px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+hr {
+    background-color: red;
+    border: 4px dashed bisque;
+}
+
+aside img {
+    width: 100%;
+    display: block;
+    margin: 0px auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer {
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    background-color: darkred;
+}
+
+@media (width >=1000px) {
+    figure {
+        width: 50%;
+        float: right;
+        padding-left: 10px;
+    }
+
+    aside {
+        width: 50%;
+        float: left;
+    }
+
+    article {
+        overflow: hidden;
+    }
+
+    .eto {
+        width: 50%;
+        float: right;
+        padding-left: 10px;
+    }
+    section {width: 50%;
+    float: right;}
+}
